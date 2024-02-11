@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "amazon-scraper"
+version = "0.1.0"
+description = ""
+authors = ["Marcuth <example@gmail.com>"]
+readme = "README.md"
+packages = [{include = "amazon_scraper"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+httpx = "^0.26.0"
+parsel = "^1.8.1"
+pydantic = "^2.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
